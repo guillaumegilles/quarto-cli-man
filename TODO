@@ -1,0 +1,4 @@
+- [ ] Add a backlink to original website: https://guillaumegilles.github.io/
+- [ ] Create man pages for man quarto
+    sudo install -m 644 quarto.1 /usr/local/share/man/man1/
+    sudo mandb
