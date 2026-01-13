@@ -1,0 +1,22 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "Quarto CLI Manual"
+  subtitle: "Command-Line Reference"
+  chapters:
+    - index.qmd
+    - commands/quarto.qmd
+    - commands/quarto-render.qmd
+    - commands/quarto-preview.qmd
+    - commands/quarto-publish.qmd
+    - commands/quarto-check.qmd
+    - commands/quarto-create.qmd
+
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    theme:
+      light: style.scss
